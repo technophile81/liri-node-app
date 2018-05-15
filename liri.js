@@ -71,7 +71,7 @@ function do_movie_this(movie) {
     var queryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
 
     request(queryUrl, function (error, response, body) {
-        // If the request is successful
+
         if (!error && response.statusCode === 200) {
             var movieData = JSON.parse(body);
 
