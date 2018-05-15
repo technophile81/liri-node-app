@@ -54,9 +54,7 @@ function do_spotify_this_song(title) {
                 output("\nArtist(s): " + song.artists[j].name);
             }
             output("\nSong Title: " + song.name);
-
             output("\nPreview URL: " + song.preview_url);
-
             output("\nAlbum: " + song.album.name + "\n");
         }
     });
@@ -78,7 +76,6 @@ function do_movie_this(movie) {
             if (movieData.Response === 'False') {
                 output("Error searching for movie '" + movie + "': " + movieData.Error);
             } else {
-
                 output("\nTitle: " + movieData.Title)
                 output("\nRelease Year: " + movieData.Year);
 
