@@ -1,6 +1,6 @@
 # liri-node-app
 
-LIRI is like iPhone's SIRI, except it is a _Language_ Interpretation and Recognition Interface. It is a command line node app that takes in parameters, gives you back data, and outputs into a text file. 
+LIRI is like iPhone's SIRI, except it is a _Language_ Interpretation and Recognition Interface. It is a command line node app that takes in parameters, gives you back data, and outputs into a text file named log.txt. 
 
 Display my 20 most recent tweets and learn more about my social media activities by inputing `node liri.js my-tweets`.
 
@@ -10,3 +10,4 @@ Look up some movie information courtesy of the OMDB API by inputing `node liri.j
 
 Finally, check out a song that is parsed from a text file by inputing `node liri.js do-what-it-says` and see what happens!
 
+Once you're done, check out the log.txt file and find all your results! Results will append so add as much as you would like.
