@@ -65,7 +65,9 @@ function do_spotify_this_song(title) {
 ///////////////////////////////////////////////////////////////////////////////
 
 function do_movie_this(movie) {
-
+    if (!movie) {
+        movie = "Mr. Nobody";
+    }
     var queryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
 
     request(queryUrl, function (error, response, body) {
