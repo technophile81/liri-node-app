@@ -50,7 +50,7 @@ function do_spotify_this_song(title) {
         } else {
             var song = data.tracks.items[0];
 
-            for (j = 0; j < song.artists.length; j++) {
+            for (let j = 0; j < song.artists.length; j++) {
                 output("\nArtist(s): " + song.artists[j].name);
             }
             output("\nSong Title: " + song.name);
