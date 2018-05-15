@@ -28,7 +28,7 @@ function do_my_tweets(arg) {
         if (!error) {
             for (let tweet of tweets) {
                 output("\nPosted on: " + tweet.created_at);
-                output("\nPost: " + tweet.text);
+                output("\nPost: " + tweet.text + "\n");
                 output('\n******************************************************\n');
             }
         } else {
